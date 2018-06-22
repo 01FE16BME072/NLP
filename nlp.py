@@ -36,4 +36,4 @@ classifier = GaussianNB()
 classifier.fit(features_train,labels_train)
 Accuracy = classifier.score(features_test,labels_test)
 
-print 'Accuracy is:',Accuracy
+print 'Accuracy is: ',Accuracy
